@@ -1,0 +1,40 @@
+{
+  "chosen": "hmm_baseline_tuned",
+  "rule": "highest pooled train Top-1 after Viterbi (OOF emissions)",
+  "train_top1_hmm_baseline_tuned": 0.856251909811799,
+  "train_top1_hybrid_tuned": 0.8544034624574832,
+  "hmm_baseline": {
+    "hmm": {
+      "beta": 30.602919949158224,
+      "sigma": 21.757283655611495,
+      "gap_s": 60.0,
+      "back_tol": 15.0,
+      "max_speed": 60.0,
+      "sp_slack": 200.0,
+      "sp_cap": 3000.0
+    }
+  },
+  "hybrid": {
+    "model": "lightgbm_tuned",
+    "lgbm_params": {
+      "n_estimators": 600,
+      "learning_rate": 0.010045133179650632,
+      "num_leaves": 145,
+      "min_child_samples": 50,
+      "subsample": 0.6934483108826374,
+      "colsample_bytree": 0.8544169022580052,
+      "reg_lambda": 1.024372187930848
+    },
+    "hmm": {
+      "beta": 2.5067485340577864,
+      "sigma": 5.0,
+      "gap_s": 60.0,
+      "back_tol": 15.0,
+      "max_speed": 60.0,
+      "sp_slack": 200.0,
+      "sp_cap": 3000.0
+    },
+    "emission_weight": 0.0986011483896138,
+    "dist_sigma": 6.5098599516106095
+  }
+}

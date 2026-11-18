@@ -1,0 +1,35 @@
+{
+  "study": "clf_lightgbm",
+  "direction": "MINIMIZE",
+  "best_value": 0.11325167075771914,
+  "best_params": {
+    "n_estimators": 600,
+    "learning_rate": 0.010045133179650632,
+    "num_leaves": 145,
+    "min_child_samples": 50,
+    "subsample": 0.6934483108826374,
+    "colsample_bytree": 0.8544169022580052,
+    "reg_lambda": 1.024372187930848
+  },
+  "best_trial": 27,
+  "best_user_attrs": {
+    "cv_macro_f1": 0.9226418272817949,
+    "cv_macro_f1_std": 0.016109737917883823,
+    "cv_top1_cand": 0.8531663462682924
+  },
+  "n_trials": 30,
+  "n_complete": 20,
+  "n_pruned": 10,
+  "total_compute_s": 2552.718596,
+  "mean_trial_s": 102.93542984999999,
+  "objective": "mean 5-fold GroupKFold candidate log loss (train trips only)",
+  "param_importance": {
+    "num_leaves": 0.333977670275687,
+    "reg_lambda": 0.1853696992386465,
+    "colsample_bytree": 0.1799294897930761,
+    "learning_rate": 0.1605351300965268,
+    "min_child_samples": 0.10450637850291081,
+    "subsample": 0.027758588811142123,
+    "n_estimators": 0.00792304328201072
+  }
+}

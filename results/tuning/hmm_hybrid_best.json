@@ -1,0 +1,28 @@
+{
+  "study": "hmm_hybrid",
+  "direction": "MAXIMIZE",
+  "best_value": 0.8544034624574832,
+  "best_params": {
+    "clf_weight": 0.0986011483896138,
+    "use_dist": true,
+    "dist_sigma": 6.5098599516106095,
+    "beta": 2.5067485340577864
+  },
+  "best_trial": 21,
+  "best_user_attrs": {
+    "n_breaks": 287,
+    "train_route_f1": 0.9793326831895381
+  },
+  "n_trials": 50,
+  "n_complete": 50,
+  "n_pruned": 0,
+  "total_compute_s": 164.530856,
+  "mean_trial_s": 3.29061712,
+  "objective": "pooled train Top-1 after Viterbi (80 trips), OOF tuned-LightGBM emissions",
+  "param_importance": {
+    "dist_sigma": 0.5684017759638808,
+    "beta": 0.2355979914016735,
+    "clf_weight": 0.18153428709319047,
+    "use_dist": 0.014465945541255297
+  }
+}

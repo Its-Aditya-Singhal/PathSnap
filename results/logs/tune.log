@@ -1,0 +1,138 @@
+[clf] 1,083,424 labelled rows, 80 trips, 5 folds
+  trial 0: logloss=0.1147 macroF1=0.9223
+  trial 1: logloss=0.1812 macroF1=0.9146
+  trial 2: logloss=0.1215 macroF1=0.9210
+  trial 3: logloss=0.1168 macroF1=0.9224
+  trial 4: logloss=0.1144 macroF1=0.9224
+  trial 5: logloss=0.1139 macroF1=0.9222
+  trial 6: logloss=0.1141 macroF1=0.9228
+  trial 10: logloss=0.1149 macroF1=0.9222
+  trial 11: logloss=0.1139 macroF1=0.9222
+  trial 13: logloss=0.1134 macroF1=0.9228
+  trial 14: logloss=0.1136 macroF1=0.9227
+  trial 15: logloss=0.1136 macroF1=0.9228
+  trial 16: logloss=0.1138 macroF1=0.9227
+  trial 17: logloss=0.1136 macroF1=0.9228
+  trial 19: logloss=0.1136 macroF1=0.9230
+  trial 22: logloss=0.1134 macroF1=0.9227
+  trial 25: logloss=0.1134 macroF1=0.9226
+  trial 26: logloss=0.1136 macroF1=0.9225
+  trial 27: logloss=0.1133 macroF1=0.9226
+  trial 28: logloss=0.1135 macroF1=0.9224
+{"best_value": 0.11325167075771914, "best_params": {"n_estimators": 600, "learning_rate": 0.010045133179650632, "num_leaves": 145, "min_child_samples": 50, "subsample": 0.6934483108826374, "colsample_bytree": 0.8544169022580052, "reg_lambda": 1.024372187930848}, "n_trials": 30, "n_pruned": 10, "total_compute_s": 2552.718596}
+  OOF fold 0: 15 trips
+  OOF fold 1: 16 trips
+  OOF fold 2: 17 trips
+  OOF fold 3: 16 trips
+  OOF fold 4: 16 trips
+[clf] refit on all train in 31.1s -> lightgbm_tuned.joblib
+[hmm] loaded 80 train trips in 22s
+  baseline trial 0: top1=0.8521 routeF1=0.9775 {'sigma': 5.0, 'beta': 5.0}
+  baseline trial 1: top1=0.8415 routeF1=0.9681 {'sigma': 5.514718587869894, 'beta': 41.23206532618726}
+  baseline trial 2: top1=0.8557 routeF1=0.9789 {'sigma': 14.518497439122726, 'beta': 10.401663679887308}
+  baseline trial 3: top1=0.8521 routeF1=0.9775 {'sigma': 3.051561696410235, 'beta': 1.8408992080552518}
+  baseline trial 4: top1=0.8316 routeF1=0.9546 {'sigma': 2.3406777359270508, 'beta': 29.621516588303486}
+  baseline trial 5: top1=0.8532 routeF1=0.9784 {'sigma': 10.185822566867643, 'beta': 15.958573588141263}
+  baseline trial 6: top1=0.8280 routeF1=0.9484 {'sigma': 2.1146536167031593, 'beta': 44.447541666908116}
+  baseline trial 7: top1=0.8426 routeF1=0.9790 {'sigma': 19.057174434080483, 'beta': 2.2948683681130553}
+  baseline trial 8: top1=0.8522 routeF1=0.9777 {'sigma': 3.2724479701789235, 'beta': 2.0492680115417348}
+  baseline trial 9: top1=0.8489 routeF1=0.9755 {'sigma': 4.558759047530141, 'beta': 7.790143126276236}
+  baseline trial 10: top1=0.8491 routeF1=0.9787 {'sigma': 29.007771345263897, 'beta': 13.925622553091479}
+  baseline trial 11: top1=0.8540 routeF1=0.9785 {'sigma': 10.440840371481723, 'beta': 13.398028307733616}
+  baseline trial 12: top1=0.8542 routeF1=0.9789 {'sigma': 10.219510992725786, 'beta': 3.8840897843852784}
+  baseline trial 13: top1=0.8534 routeF1=0.9789 {'sigma': 9.836348144559816, 'beta': 3.3060887400380645}
+  baseline trial 14: top1=0.8488 routeF1=0.9787 {'sigma': 18.507319705292925, 'beta': 5.550936722825254}
+  baseline trial 15: top1=0.8412 routeF1=0.9783 {'sigma': 15.397772889318317, 'beta': 1.0470525035423923}
+  baseline trial 16: top1=0.8555 routeF1=0.9789 {'sigma': 27.931784176705314, 'beta': 36.88613612330941}
+  baseline trial 17: top1=0.8559 routeF1=0.9790 {'sigma': 23.915058639839422, 'beta': 32.27736151675997}
+  baseline trial 18: top1=0.8561 routeF1=0.9791 {'sigma': 17.523208766590564, 'beta': 19.48925356848548}
+  baseline trial 19: top1=0.8554 routeF1=0.9790 {'sigma': 22.21773646347772, 'beta': 22.41817782464891}
+  baseline trial 20: top1=0.8529 routeF1=0.9783 {'sigma': 12.662427659640162, 'beta': 26.24166451201089}
+  baseline trial 21: top1=0.8546 routeF1=0.9789 {'sigma': 18.94074703757883, 'beta': 14.522171661866262}
+  baseline trial 22: top1=0.8553 routeF1=0.9789 {'sigma': 14.368780063009257, 'beta': 9.641587033615773}
+  baseline trial 23: top1=0.8491 routeF1=0.9787 {'sigma': 8.63752223482473, 'beta': 1.241000456878867}
+  baseline trial 24: top1=0.8530 routeF1=0.9783 {'sigma': 16.7241326285162, 'beta': 45.40691642987946}
+  baseline trial 25: top1=0.8475 routeF1=0.9787 {'sigma': 23.006088624992454, 'beta': 6.529240079209406}
+  baseline trial 26: top1=0.8495 routeF1=0.9758 {'sigma': 11.947471206534393, 'beta': 47.56370797281963}
+  baseline trial 27: top1=0.8472 routeF1=0.9738 {'sigma': 6.488052369631001, 'beta': 21.342806660482427}
+  baseline trial 28: top1=0.8547 routeF1=0.9788 {'sigma': 17.189877183246693, 'beta': 29.341279362408425}
+  baseline trial 29: top1=0.8559 routeF1=0.9790 {'sigma': 6.840620757931458, 'beta': 3.824573418719043}
+  baseline trial 30: top1=0.8551 routeF1=0.9789 {'sigma': 6.647637999424404, 'beta': 3.874670651210888}
+  baseline trial 31: top1=0.8512 routeF1=0.9768 {'sigma': 6.513136024894943, 'beta': 11.005228962538746}
+  baseline trial 32: top1=0.8552 routeF1=0.9789 {'sigma': 14.154197820234971, 'beta': 16.998500343528182}
+  baseline trial 33: top1=0.8418 routeF1=0.9783 {'sigma': 28.888732810460432, 'beta': 4.315205234539713}
+  baseline trial 34: top1=0.8522 routeF1=0.9789 {'sigma': 18.094572187218244, 'beta': 9.249808566288737}
+  baseline trial 35: top1=0.8463 routeF1=0.9732 {'sigma': 2.5057729483493696, 'beta': 3.707630213190973}
+  baseline trial 36: top1=0.8533 routeF1=0.9789 {'sigma': 13.683965968638294, 'beta': 6.411902964938134}
+  baseline trial 37: top1=0.8409 routeF1=0.9664 {'sigma': 4.013892110482327, 'beta': 26.151847395836743}
+  baseline trial 38: top1=0.8535 routeF1=0.9785 {'sigma': 6.585468894451751, 'beta': 6.090829765233069}
+  baseline trial 39: top1=0.8503 routeF1=0.9785 {'sigma': 23.690723559190815, 'beta': 11.8719391216824}
+  baseline trial 40: top1=0.8489 routeF1=0.9755 {'sigma': 8.877413312605222, 'beta': 30.009853427578612}
+  baseline trial 41: top1=0.8539 routeF1=0.9789 {'sigma': 28.031194720407548, 'beta': 28.310691369841745}
+  baseline trial 42: top1=0.8562 routeF1=0.9791 {'sigma': 23.58274625550371, 'beta': 38.52464505907599}
+  baseline trial 43: top1=0.8562 routeF1=0.9791 {'sigma': 17.469832250457547, 'beta': 18.64012143698808}
+  baseline trial 44: top1=0.8371 routeF1=0.9619 {'sigma': 2.1772042755516074, 'beta': 12.277214404973922}
+  baseline trial 45: top1=0.8545 routeF1=0.9787 {'sigma': 8.951359503996875, 'beta': 8.79823739497888}
+  baseline trial 46: top1=0.8422 routeF1=0.9689 {'sigma': 3.628259238445099, 'beta': 15.825915775592195}
+  baseline trial 47: top1=0.8512 routeF1=0.9789 {'sigma': 24.83700472518052, 'beta': 15.473242836086094}
+  baseline trial 48: top1=0.8563 routeF1=0.9791 {'sigma': 21.757283655611495, 'beta': 30.602919949158224}
+  baseline trial 49: top1=0.8550 routeF1=0.9789 {'sigma': 23.47508467242906, 'beta': 48.878261614806625}
+{"best_value": 0.856251909811799, "best_params": {"sigma": 21.757283655611495, "beta": 30.602919949158224}, "n_trials": 50, "n_pruned": 0, "total_compute_s": 153.64095799999998}
+  hybrid trial 0: top1=0.8447 routeF1=0.9793 {'clf_weight': 1.0, 'use_dist': False, 'beta': 5.0}
+  hybrid trial 1: top1=0.8510 routeF1=0.9802 {'clf_weight': 0.2805758207667252, 'use_dist': True, 'dist_sigma': 15.322201415542729, 'beta': 1.841072920573868}
+  hybrid trial 2: top1=0.8502 routeF1=0.9802 {'clf_weight': 0.10255552094216984, 'use_dist': False, 'beta': 10.502105436744278}
+  hybrid trial 3: top1=0.8371 routeF1=0.9759 {'clf_weight': 1.3035123791853829, 'use_dist': False, 'beta': 25.95942550311264}
+  hybrid trial 4: top1=0.8460 routeF1=0.9790 {'clf_weight': 0.13293771991636347, 'use_dist': False, 'beta': 3.2877474139911183}
+  hybrid trial 5: top1=0.8504 routeF1=0.9798 {'clf_weight': 0.5603803105930283, 'use_dist': True, 'dist_sigma': 16.025475007997077, 'beta': 1.7258215396624996}
+  hybrid trial 6: top1=0.8460 routeF1=0.9793 {'clf_weight': 0.19198146499020852, 'use_dist': False, 'beta': 21.576967455896824}
+  hybrid trial 7: top1=0.8388 routeF1=0.9782 {'clf_weight': 0.12540578430226162, 'use_dist': False, 'beta': 1.199272452295516}
+  hybrid trial 8: top1=0.8369 routeF1=0.9756 {'clf_weight': 0.8204643365323956, 'use_dist': True, 'dist_sigma': 50.4253580955584, 'beta': 43.70990468130503}
+  hybrid trial 9: top1=0.8414 routeF1=0.9783 {'clf_weight': 2.0690200562805066, 'use_dist': True, 'dist_sigma': 20.498644433848305, 'beta': 5.595074635794794}
+  hybrid trial 10: top1=0.8412 routeF1=0.9667 {'clf_weight': 0.05136610983876337, 'use_dist': True, 'dist_sigma': 2.052004465051317, 'beta': 6.771369870464808}
+  hybrid trial 11: top1=0.8510 routeF1=0.9800 {'clf_weight': 0.540512297073884, 'use_dist': True, 'dist_sigma': 11.74657859301761, 'beta': 1.3566735333552196}
+  hybrid trial 12: top1=0.8482 routeF1=0.9791 {'clf_weight': 0.05734621093375869, 'use_dist': True, 'dist_sigma': 9.994644161364326, 'beta': 1.1008807444988542}
+  hybrid trial 13: top1=0.8501 routeF1=0.9802 {'clf_weight': 0.8262758937412322, 'use_dist': False, 'beta': 1.2105750211650632}
+  hybrid trial 14: top1=0.8529 routeF1=0.9794 {'clf_weight': 0.20121786498200017, 'use_dist': True, 'dist_sigma': 6.553832424213241, 'beta': 3.016029514611048}
+  hybrid trial 15: top1=0.8449 routeF1=0.9747 {'clf_weight': 0.18339498746646532, 'use_dist': True, 'dist_sigma': 3.447060742669658, 'beta': 5.418212040872231}
+  hybrid trial 16: top1=0.8541 routeF1=0.9794 {'clf_weight': 0.1292260302881289, 'use_dist': True, 'dist_sigma': 6.674450474683865, 'beta': 1.995283636839929}
+  hybrid trial 17: top1=0.8411 routeF1=0.9760 {'clf_weight': 0.5508298762399377, 'use_dist': True, 'dist_sigma': 5.371801165884145, 'beta': 10.716561999648404}
+  hybrid trial 18: top1=0.8464 routeF1=0.9767 {'clf_weight': 0.15738721680841544, 'use_dist': True, 'dist_sigma': 5.824008766535565, 'beta': 10.249555127716812}
+  hybrid trial 19: top1=0.8539 routeF1=0.9793 {'clf_weight': 0.0992913948531678, 'use_dist': True, 'dist_sigma': 6.5002582626542145, 'beta': 2.8316116975633903}
+  hybrid trial 20: top1=0.8510 routeF1=0.9802 {'clf_weight': 0.33114839907936405, 'use_dist': False, 'beta': 5.724145452984235}
+  hybrid trial 21: top1=0.8544 routeF1=0.9793 {'clf_weight': 0.0986011483896138, 'use_dist': True, 'dist_sigma': 6.5098599516106095, 'beta': 2.5067485340577864}
+  hybrid trial 22: top1=0.8518 routeF1=0.9783 {'clf_weight': 0.05958784806657484, 'use_dist': True, 'dist_sigma': 3.417483241849529, 'beta': 2.043184107446616}
+  hybrid trial 23: top1=0.8540 routeF1=0.9793 {'clf_weight': 0.0827570212949442, 'use_dist': True, 'dist_sigma': 8.045862607166917, 'beta': 3.386252189829426}
+  hybrid trial 24: top1=0.8494 routeF1=0.9794 {'clf_weight': 0.19503256032478952, 'use_dist': True, 'dist_sigma': 9.893308356336252, 'beta': 1.1412316844845596}
+  hybrid trial 25: top1=0.8439 routeF1=0.9729 {'clf_weight': 0.08560811305060598, 'use_dist': True, 'dist_sigma': 3.726416022638592, 'beta': 8.809838500452063}
+  hybrid trial 26: top1=0.8429 routeF1=0.9789 {'clf_weight': 0.07351358214167047, 'use_dist': False, 'beta': 4.041684069535913}
+  hybrid trial 27: top1=0.8514 routeF1=0.9799 {'clf_weight': 0.30607097550376805, 'use_dist': True, 'dist_sigma': 26.558618918248747, 'beta': 4.806448307035814}
+  hybrid trial 28: top1=0.8512 routeF1=0.9803 {'clf_weight': 0.0537020380957886, 'use_dist': False, 'beta': 32.10238188056138}
+  hybrid trial 29: top1=0.8505 routeF1=0.9792 {'clf_weight': 0.11561291413762963, 'use_dist': True, 'dist_sigma': 8.065916656716055, 'beta': 1.0008368393888731}
+  hybrid trial 30: top1=0.8344 routeF1=0.9730 {'clf_weight': 4.552636790867642, 'use_dist': False, 'beta': 15.506157197520377}
+  hybrid trial 31: top1=0.8535 routeF1=0.9791 {'clf_weight': 0.10704257150612025, 'use_dist': True, 'dist_sigma': 5.08629928042087, 'beta': 2.2742515337412748}
+  hybrid trial 32: top1=0.8536 routeF1=0.9794 {'clf_weight': 0.087658415346408, 'use_dist': True, 'dist_sigma': 7.698366378927234, 'beta': 4.255889713984126}
+  hybrid trial 33: top1=0.8435 routeF1=0.9750 {'clf_weight': 0.2982596244314953, 'use_dist': True, 'dist_sigma': 4.38787512513298, 'beta': 9.07646792426051}
+  hybrid trial 34: top1=0.8543 routeF1=0.9793 {'clf_weight': 0.05602040416358513, 'use_dist': True, 'dist_sigma': 7.556157933505585, 'beta': 3.333435499905564}
+  hybrid trial 35: top1=0.8383 routeF1=0.9782 {'clf_weight': 0.07487995973701923, 'use_dist': False, 'beta': 1.7573230492411123}
+  hybrid trial 36: top1=0.8474 routeF1=0.9792 {'clf_weight': 0.26850139736369455, 'use_dist': False, 'beta': 1.9137695747187409}
+  hybrid trial 37: top1=0.8516 routeF1=0.9794 {'clf_weight': 0.1716661836831884, 'use_dist': True, 'dist_sigma': 11.591473775731753, 'beta': 2.3770451780443937}
+  hybrid trial 38: top1=0.8526 routeF1=0.9792 {'clf_weight': 0.10100133661498494, 'use_dist': True, 'dist_sigma': 7.368042589899341, 'beta': 1.612584655002735}
+  hybrid trial 39: top1=0.8464 routeF1=0.9739 {'clf_weight': 0.06097729744460465, 'use_dist': True, 'dist_sigma': 2.5517191433057027, 'beta': 3.385409914979982}
+  hybrid trial 40: top1=0.8507 routeF1=0.9792 {'clf_weight': 0.12322653072384912, 'use_dist': True, 'dist_sigma': 8.812873232884634, 'beta': 6.7533475929376925}
+  hybrid trial 41: top1=0.8526 routeF1=0.9792 {'clf_weight': 0.11913295935520185, 'use_dist': True, 'dist_sigma': 6.096188482304928, 'beta': 3.4083827350147473}
+  hybrid trial 42: top1=0.8543 routeF1=0.9793 {'clf_weight': 0.14245597388009457, 'use_dist': True, 'dist_sigma': 4.8048616521091665, 'beta': 1.4911527270260867}
+  hybrid trial 43: top1=0.8540 routeF1=0.9793 {'clf_weight': 0.1523931038481996, 'use_dist': True, 'dist_sigma': 4.472877165233939, 'beta': 1.5126533529072477}
+  hybrid trial 44: top1=0.8527 routeF1=0.9792 {'clf_weight': 0.21456440698589488, 'use_dist': True, 'dist_sigma': 4.327481991918954, 'beta': 1.7664217658379804}
+  hybrid trial 45: top1=0.8505 routeF1=0.9786 {'clf_weight': 0.3114995633235945, 'use_dist': True, 'dist_sigma': 4.50786546185318, 'beta': 2.449777130007911}
+  hybrid trial 46: top1=0.8481 routeF1=0.9775 {'clf_weight': 0.4641020566481876, 'use_dist': True, 'dist_sigma': 3.1969887848800633, 'beta': 2.400579613095825}
+  hybrid trial 47: top1=0.8473 routeF1=0.9798 {'clf_weight': 0.132218537906382, 'use_dist': True, 'dist_sigma': 14.63036991847085, 'beta': 1.4393095390170831}
+  hybrid trial 48: top1=0.8513 routeF1=0.9783 {'clf_weight': 0.06556967468672563, 'use_dist': True, 'dist_sigma': 5.441398160777015, 'beta': 5.2366658701992534}
+  hybrid trial 49: top1=0.8516 routeF1=0.9777 {'clf_weight': 0.07218787269806755, 'use_dist': True, 'dist_sigma': 2.4150145529226212, 'beta': 1.1611739036297846}
+{"best_value": 0.8544034624574832, "best_params": {"clf_weight": 0.0986011483896138, "use_dist": true, "dist_sigma": 6.5098599516106095, "beta": 2.5067485340577864}, "n_trials": 50, "n_pruned": 0, "total_compute_s": 164.530856}
+[final] selection: hmm_baseline_tuned
+  hmm_baseline (default): top1_clf=0.5249 top1_hmm=0.9236 routeF1_hmm=0.9862
+  hmm_baseline (tuned): top1_clf=0.5249 top1_hmm=0.9294 routeF1_hmm=0.9883
+  lightgbm default + HMM default: top1_clf=0.8721 top1_hmm=0.9023 routeF1_hmm=0.9891
+  lightgbm tuned + HMM default: top1_clf=0.8738 top1_hmm=0.9159 routeF1_hmm=0.9886
+  lightgbm tuned + HMM tuned (hybrid): top1_clf=0.8738 top1_hmm=0.9267 routeF1_hmm=0.9884
+[final] wrote ~/Downloads/PathSnap_student_materials/pathsnap/results/tuning/final_comparison.csv

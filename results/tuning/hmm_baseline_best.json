@@ -1,0 +1,24 @@
+{
+  "study": "hmm_baseline",
+  "direction": "MAXIMIZE",
+  "best_value": 0.856251909811799,
+  "best_params": {
+    "sigma": 21.757283655611495,
+    "beta": 30.602919949158224
+  },
+  "best_trial": 48,
+  "best_user_attrs": {
+    "n_breaks": 287,
+    "train_route_f1": 0.9791097717144182
+  },
+  "n_trials": 50,
+  "n_complete": 50,
+  "n_pruned": 0,
+  "total_compute_s": 153.64095799999998,
+  "mean_trial_s": 3.07281916,
+  "objective": "pooled train Top-1 after Viterbi (80 trips)",
+  "param_importance": {
+    "sigma": 0.7439297077763176,
+    "beta": 0.2560702922236824
+  }
+}

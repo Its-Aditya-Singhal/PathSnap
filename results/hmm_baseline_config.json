@@ -1,0 +1,11 @@
+{
+  "beta": 5.0,
+  "sigma": 5.0,
+  "gap_s": 60.0,
+  "back_tol": 15.0,
+  "max_speed": 60.0,
+  "sp_slack": 200.0,
+  "sp_cap": 3000.0,
+  "radius": 50.0,
+  "k": 8
+}
