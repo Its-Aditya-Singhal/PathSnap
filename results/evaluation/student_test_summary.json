@@ -1,0 +1,15 @@
+{
+  "partition": "student_test",
+  "model": "hmm_baseline_tuned",
+  "created": "2026-11-18T09:44:08.018812+00:00",
+  "n_trips": 10,
+  "n_points": 19160,
+  "top1_hmm_pooled": 0.9294363256784969,
+  "top1_nearest_pooled": 0.5249478079331942,
+  "route_f1_hmm_mean": 0.9883101796400545,
+  "route_precision_hmm_mean": 0.9797563284091254,
+  "route_recall_hmm_mean": 0.9971664297797795,
+  "continuity_hmm_mean": 0.9991730754055423,
+  "pred_ms_mean": 341.21000000000004,
+  "ms_per_point": 0.1780845511482255
+}
