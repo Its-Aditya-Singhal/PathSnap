@@ -1,0 +1,39 @@
+{
+  "model_name": "hmm_baseline_tuned",
+  "hmm": {
+    "beta": 30.602919949158224,
+    "sigma": 21.757283655611495,
+    "gap_s": 60.0,
+    "back_tol": 15.0,
+    "max_speed": 60.0,
+    "sp_slack": 200.0,
+    "sp_cap": 3000.0
+  },
+  "emission_weight": 1.0,
+  "dist_sigma": null,
+  "features": [
+    "dist",
+    "rank",
+    "n_cands",
+    "dist_minus_min",
+    "dist_ratio_min",
+    "t_offset",
+    "arc_length",
+    "heading_diff",
+    "heading_cos",
+    "gps_disp",
+    "gps_speed",
+    "win_dist_mean",
+    "win_dist_max",
+    "win_heading_diff",
+    "has_reverse",
+    "out_deg_v",
+    "in_deg_u",
+    "dt_prev"
+  ],
+  "radius": 50.0,
+  "k": 8,
+  "created": "2026-11-18T06:43:56+00:00",
+  "trained_on": "train (80 trips); hyperparameters tuned with Optuna TPE on train only",
+  "selection_rule": "highest pooled train Top-1 after Viterbi (OOF emissions)"
+}

@@ -1,0 +1,25 @@
+# environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+.env
+
+# raw data lives outside the repo (see README); never commit evaluator ground truth
+data/*
+!data/README.md
+
+# large intermediate tables (regenerate with scripts)
+results/cache/
+*.parquet
+
+# local environments / build output
+.venv-ui/
+src/pathsnap.egg-info/
+# raw logs (client IPs, local paths) and ground-truth-derived labels
+results/logs/api_*.jsonl
+results/logs/*console.log
+results/labels/
+# the technical report is submitted separately
+report/
